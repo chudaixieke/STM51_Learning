@@ -1,4 +1,4 @@
-BL51 BANKED LINKER/LOCATER V6.22.4.0                                                    03/29/2025  15:22:05  PAGE 1
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                    03/29/2025  22:54:15  PAGE 1
 
 
 BL51 BANKED LINKER/LOCATER V6.22.4.0, INVOKED BY:
@@ -26,7 +26,7 @@ LINK MAP OF MODULE:  .\Objects\Project (MAIN)
             * * * * * * *   C O D E   M E M O R Y   * * * * * * *
             CODE    0000H     0003H     ABSOLUTE     
             CODE    0003H     000CH     UNIT         ?C_C51STARTUP
-            CODE    000FH     0005H     UNIT         ?PR?MAIN?MAIN
+            CODE    000FH     000BH     UNIT         ?PR?MAIN?MAIN
 
 
 
@@ -48,20 +48,27 @@ SYMBOL TABLE OF MODULE:  .\Objects\Project (MAIN)
 
   -------         MODULE        MAIN
   C:0000H         SYMBOL        _ICE_DUMMY_
-  D:00A0H         PUBLIC        P2
+  B:00A0H.0       PUBLIC        P2_0
+  B:00B0H.1       PUBLIC        P3_1
   C:000FH         PUBLIC        main
   -------         PROC          MAIN
   C:000FH         LINE#         2
   C:000FH         LINE#         3
-  C:000FH         LINE#         4
-  C:0012H         LINE#         5
-  C:0012H         LINE#         6
-  C:0012H         LINE#         8
+  C:000FH         LINE#         7
+  C:000FH         LINE#         8
+  C:000FH         LINE#         9
+  C:0012H         LINE#         10
+  C:0012H         LINE#         11
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                  03/29/2025  22:54:15  PAGE 2
+
+
+  C:0014H         LINE#         12
+  C:0016H         LINE#         14
+  C:0016H         LINE#         15
+  C:0018H         LINE#         16
+  C:0018H         LINE#         17
   -------         ENDPROC       MAIN
   -------         ENDMOD        MAIN
-BL51 BANKED LINKER/LOCATER V6.22.4.0                                                  03/29/2025  15:22:05  PAGE 2
 
-
-
-Program Size: data=9.0 xdata=0 code=20
+Program Size: data=9.0 xdata=0 code=26
 LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)
